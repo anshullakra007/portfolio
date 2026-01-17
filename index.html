@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anshul Lakra | Systems Engineer</title>
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --surface: #161616;
+            --primary: #00ff9d;
+            --text: #e0e0e0;
+            --text-dim: #888;
+        }
+        
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Courier New', Courier, monospace; /* Terminal vibe */
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* HEADER */
+        header {
+            border-bottom: 1px solid #333;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+        h1 { margin: 0; font-size: 2.5rem; color: #fff; }
+        .role { color: var(--primary); font-weight: bold; margin-bottom: 10px; display: block;}
+        .socials a {
+            color: var(--text-dim);
+            text-decoration: none;
+            margin-right: 20px;
+            transition: color 0.2s;
+        }
+        .socials a:hover { color: var(--primary); }
+
+        /* SECTIONS */
+        section { margin-bottom: 60px; }
+        h2 { border-left: 4px solid var(--primary); padding-left: 15px; color: #fff; margin-bottom: 30px; }
+
+        /* PROJECTS GRID */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: var(--surface);
+            padding: 25px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+        .card h3 { margin-top: 0; color: #fff; }
+        .tech-stack {
+            font-size: 0.85rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .card p { font-size: 0.95rem; color: #ccc; }
+        .links { margin-top: 20px; }
+        .links a {
+            color: #fff;
+            text-decoration: none;
+            border-bottom: 1px dotted var(--primary);
+        }
+
+        /* CODEFORCES STATS */
+        .cf-stats {
+            background: var(--surface);
+            padding: 20px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            border: 1px solid #333;
+        }
+        .rank-badge {
+            background: #333;
+            padding: 5px 10px;
+            border-radius: 4px;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* MOBILE */
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Anshul Lakra</h1>
+        <span class="role">> Backend & Distributed Systems Engineer</span>
+        <div class="socials">
+            <a href="https://github.com/anshullakra007" target="_blank">github.com/anshullakra007</a>
+            <a href="https://codeforces.com/profile/anshullakra8" target="_blank">codeforces: anshullakra8</a>
+            <a href="mailto:anshul.23bcy10237@vitbhopal.ac.in">Email Me</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Algorithm Skills</h2>
+        <div class="cf-stats" id="cf-box">
+            <div style="flex-grow: 1;">
+                <h3 style="margin: 0;">Codeforces</h3>
+                <p style="margin: 5px 0 0 0; color: #888;">Handle: <span style="color: #fff;">anshullakra8</span></p>
+            </div>
+            <div style="text-align: right;">
+                <div style="font-size: 0.9rem; color: #888;">Current Rating</div>
+                <div class="rank-badge" id="cf-rating">Loading...</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Engineering Projects</h2>
+        <div class="grid">
+            
+            <div class="card">
+                <h3>SyncDraw</h3>
+                <div class="tech-stack">JAVA • SPRING BOOT • WEBSOCKETS • REACT</div>
+                <p>A real-time distributed collaboration tool. Engineered a low-latency <strong>Pub/Sub architecture</strong> to sync drawing coordinates across multiple clients in sub-milliseconds.</p>
+                <div class="links">
+                    <a href="https://github.com/anshullakra007/SyncDraw" target="_blank">View Source Code →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>MiniRedis</h3>
+                <div class="tech-stack">JAVA • RAW SOCKETS • MULTI-THREADING</div>
+                <p>A high-performance in-memory key-value store built from scratch. Features a custom <strong>TCP protocol</strong>, thread-safe storage using ConcurrentHashMap, and a CachedThreadPool for concurrency.</p>
+                <div class="links">
+                    <a href="https://github.com/anshullakra007/MiniRedis" target="_blank">View Source Code →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Load Balancer</h3>
+                <div class="tech-stack">JAVA • HTTP SERVER • ALGORITHMS</div>
+                <p>A Layer 7 reverse proxy that distributes traffic across a cluster of backend servers. Implements the <strong>Round Robin algorithm</strong> using AtomicIntegers for lock-free thread safety.</p>
+                <div class="links">
+                    <a href="https://github.com/anshullakra007/LoadBalancer" target="_blank">View Source Code →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer style="text-align: center; color: #555; font-size: 0.8rem; margin-top: 50px;">
+        <p>Built with raw HTML & CSS. No bloat.</p>
+    </footer>
+</div>
+
+<script>
+    // 🚀 LIVE CODEFORCES FETCH
+    // This script calls the API to update your rating automatically on the page.
+    async function fetchCF() {
+        try {
+            const response = await fetch('https://codeforces.com/api/user.info?handles=anshullakra8');
+            const data = await response.json();
+            if (data.status === "OK") {
+                const user = data.result[0];
+                document.getElementById('cf-rating').innerText = user.rating + " (" + user.rank + ")";
+                // Optional: Update color based on rank if you want
+            }
+        } catch (e) {
+            document.getElementById('cf-rating').innerText = "1080 (newbie)"; // Fallback
+        }
+    }
+    fetchCF();
+</script>
+
+</body>
+</html>
