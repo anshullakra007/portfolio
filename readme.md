@@ -1,10 +1,10 @@
 # 👨‍💻 Anshul Kumar | Full Stack Developer
 
 ![Java](https://img.shields.io/badge/Java-21-orange)
-![C++](https://img.shields.io/badge/C++-17-blue)
 ![React](https://img.shields.io/badge/React-18-blue)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.0-green)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
+![Placement Ready](https://img.shields.io/badge/Status-Open_to_Work-success)
 
 I am a final-year Computer Science student (**VIT Bhopal, 2023 Batch**) and a passionate Full Stack Developer. I specialize in building scalable web applications using **Spring Boot (Java)** and **MERN Stack**, with a strong foundation in **Data Structures & Algorithms (C++)**.
 
@@ -38,13 +38,6 @@ A collaborative whiteboard that allows multiple users to draw and brainstorm tog
 * **Tech Stack:** React.js, Node.js, Socket.io (WebSockets).
 * **Key Feature:** Bi-directional communication for instant drawing synchronization across clients.
 * [**Live Demo**](https://sync-draw-eight.vercel.app/)
-
----
-
-## 📊 GitHub Stats
-
-![Anshul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=anshullakra007&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anshullakra007&layout=compact&theme=radical)
 
 ---
 
