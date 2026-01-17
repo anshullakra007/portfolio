@@ -6,12 +6,13 @@
     <title>Anshul Kumar | Systems Engineer</title>
     <style>
         :root {
-            --bg: #000000;
+            /* HIGH CONTRAST THEME */
+            --bg: #050505;
+            --surface: #111111;
             --text-main: #ffffff;
-            --text-dim: #888888;
+            --text-secondary: #d4d4d4; /* Lighter grey for better visibility */
             --border: #333333;
-            --hover-bg: #ffffff;
-            --hover-text: #000000;
+            --accent: #ffffff; /* Stark white accent */
         }
         
         * { box-sizing: border-box; }
@@ -19,184 +20,180 @@
         body {
             background-color: var(--bg);
             color: var(--text-main);
+            /* SYSTEM FONTS - THICKER WEIGHTS */
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             margin: 0;
             line-height: 1.6;
+            font-size: 18px; /* Bigger base size */
             -webkit-font-smoothing: antialiased;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
             padding: 80px 24px;
         }
 
-        /* HEADER & HERO */
-        header { margin-bottom: 80px; }
+        /* --- HERO SECTION --- */
+        header { margin-bottom: 100px; }
         
         h1 { 
-            font-size: 3rem; 
-            letter-spacing: -0.05em; 
-            margin: 0 0 10px 0; 
-            font-weight: 800;
+            font-size: 3.5rem; 
+            letter-spacing: -0.04em; 
+            margin: 0 0 15px 0; 
+            font-weight: 800; /* Extra Bold */
+            line-height: 1.1;
         }
 
-        .subtitle {
-            font-size: 1.2rem;
-            color: var(--text-dim);
-            margin-bottom: 24px;
-            font-weight: 400;
+        .role {
+            font-size: 1.4rem;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+            font-weight: 500;
         }
 
-        .meta-info {
+        .social-row {
             display: flex;
             gap: 20px;
-            font-size: 0.9rem;
-            color: var(--text-dim);
-            margin-bottom: 30px;
-            font-family: 'Courier New', monospace; /* Monospaced only for data */
+            font-size: 1rem;
+            font-weight: 600;
         }
-        
-        .social-links { display: flex; gap: 15px; }
-        .social-btn {
+
+        .social-link {
             color: var(--text-main);
             text-decoration: none;
-            border: 1px solid var(--border);
-            padding: 8px 16px;
-            border-radius: 4px;
-            font-size: 0.9rem;
-            transition: all 0.2s ease;
+            border-bottom: 2px solid #333;
+            padding-bottom: 2px;
+            transition: border-color 0.2s;
         }
-        .social-btn:hover {
-            background: var(--hover-bg);
-            color: var(--hover-text);
-            border-color: var(--hover-bg);
-        }
+        .social-link:hover { border-color: #fff; }
 
-        /* SECTIONS */
-        section { margin-bottom: 80px; }
-        .section-title {
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--text-dim);
-            margin-bottom: 24px;
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 10px;
-        }
-
-        /* SKILLS PILLS */
-        .skills-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .skill-pill {
-            background: #111;
-            border: 1px solid #333;
-            padding: 6px 12px;
-            font-size: 0.85rem;
-            color: #ddd;
-            border-radius: 100px;
-        }
-
-        /* PROJECTS GRID */
-        .projects-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 24px;
-        }
+        /* --- SECTIONS --- */
+        section { margin-bottom: 100px; }
         
-        @media (min-width: 600px) {
-            .projects-grid { grid-template-columns: repeat(2, 1fr); }
-            .featured { grid-column: span 2; }
+        h2 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #888;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 15px;
+            font-weight: 700;
+        }
+
+        /* --- SKILLS GRID (Categorized) --- */
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+        }
+        .skill-group h3 {
+            font-size: 1.1rem;
+            margin: 0 0 15px 0;
+            color: #fff;
+        }
+        .skill-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            color: #aaa;
+            font-size: 1rem;
+        }
+        .skill-list li { margin-bottom: 8px; }
+
+        /* --- PROJECTS (WIDE CARDS) --- */
+        .project-list {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
         }
 
         .project-card {
-            background: #050505;
+            background: var(--surface);
             border: 1px solid var(--border);
-            padding: 30px;
-            border-radius: 8px;
-            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            height: 100%;
+            padding: 35px;
+            border-radius: 12px;
+            transition: transform 0.2s ease;
         }
 
-        /* HOVER EFFECT: INVERT COLORS */
-        .project-card:hover {
-            background: var(--hover-bg);
-            border-color: var(--hover-bg);
-            transform: translateY(-4px);
-        }
-        .project-card:hover * {
-            color: var(--hover-text) !important;
-            border-color: #000 !important;
+        /* FEATURED PROJECT STYLE */
+        .project-card.featured {
+            border: 2px solid #fff; /* White border for emphasis */
+            background: #0a0a0a;
         }
 
-        .card-header {
+        .project-header {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin-bottom: 15px;
-        }
-        
-        .project-title {
-            margin: 0;
-            font-size: 1.4rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-        }
-        
-        .project-desc {
-            font-size: 0.95rem;
-            color: #888;
             margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .project-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 0;
+            color: #fff;
+        }
+
+        .badge {
+            background: #fff;
+            color: #000;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .project-desc {
+            font-size: 1.05rem; /* Larger reading text */
+            color: #ccc; /* High contrast grey */
+            margin-bottom: 25px;
+            max-width: 90%;
             line-height: 1.7;
         }
 
-        .tech-stack {
-            font-family: 'Courier New', monospace;
-            font-size: 0.8rem;
-            color: #666;
-            margin-top: auto;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-        }
-
-        .card-links {
+        /* TECH STACK TAGS */
+        .tags {
             display: flex;
-            gap: 15px;
-            border-top: 1px solid var(--border);
-            padding-top: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 25px;
         }
-        
-        .card-links a {
-            text-decoration: none;
-            font-size: 0.9rem;
+        .tag {
+            background: #222;
+            color: #eee;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.85rem;
             font-weight: 600;
-            color: var(--text-main);
+            border: 1px solid #333;
         }
 
-        .live-badge {
-            display: inline-block;
-            background: #fff;
-            color: #000 !important;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.7rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            vertical-align: middle;
-            margin-left: 10px;
+        /* LINKS */
+        .links {
+            display: flex;
+            gap: 25px;
+            font-weight: 700;
         }
-        
-        /* HOVER FIX FOR BADGE */
-        .project-card:hover .live-badge {
-            background: #000;
-            color: #fff !important;
+        .links a {
+            color: #fff;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .links a:hover { text-decoration: underline; }
+
+        /* MOBILE TWEAKS */
+        @media (max-width: 600px) {
+            h1 { font-size: 2.5rem; }
+            .project-header { flex-direction: column; }
         }
 
     </style>
@@ -206,100 +203,131 @@
 <div class="container">
 
     <header>
-        <h1>Anshul Kumar</h1>
-        <div class="subtitle">Full Stack & Distributed Systems Engineer</div>
+        <h1>Anshul Kumar.</h1>
+        <div class="role">Full Stack Engineer & Distributed Systems Specialist.</div>
         
-        <div class="meta-info">
-            <span>🎓 Class of 2023</span>
-            <span>📍 VIT Bhopal</span>
-            <span>💻 Open to Work</span>
-        </div>
-
-        <div class="social-links">
-            <a href="https://github.com/anshullakra007" class="social-btn" target="_blank">GitHub</a>
-            <a href="https://codeforces.com/profile/anshullakra8" class="social-btn" target="_blank">Codeforces</a>
-            <a href="mailto:anshul.23bcy10237@vitbhopal.ac.in" class="social-btn">Email Me</a>
+        <div class="social-row">
+            <a href="https://github.com/anshullakra007" class="social-link" target="_blank">GitHub</a>
+            <a href="https://codeforces.com/profile/anshullakra8" class="social-link" target="_blank">Codeforces</a>
+            <a href="mailto:anshul.23bcy10237@vitbhopal.ac.in" class="social-link">Email</a>
+            <span style="color: #444;">|</span>
+            <span style="color: #888;">VIT Bhopal '23</span>
         </div>
     </header>
 
     <section>
-        <div class="section-title">Technical Arsenal</div>
-        <div class="skills-grid">
-            <span class="skill-pill">Java 21</span>
-            <span class="skill-pill">C++ (STL)</span>
-            <span class="skill-pill">Spring Boot</span>
-            <span class="skill-pill">React.js</span>
-            <span class="skill-pill">Docker</span>
-            <span class="skill-pill">Microservices</span>
-            <span class="skill-pill">System Design</span>
-            <span class="skill-pill">Socket.io</span>
-            <span class="skill-pill">Low-Level Design</span>
+        <h2>Technical Expertise</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Languages</h3>
+                <ul class="skill-list">
+                    <li>Java (JDK 21)</li>
+                    <li>C++ (STL)</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>SQL / Python</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Backend & Systems</h3>
+                <ul class="skill-list">
+                    <li>Spring Boot 3</li>
+                    <li>Microservices</li>
+                    <li>Docker & Containers</li>
+                    <li>System Design</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Frontend & Real-time</h3>
+                <ul class="skill-list">
+                    <li>React.js</li>
+                    <li>Socket.io (WebSockets)</li>
+                    <li>Tailwind CSS</li>
+                    <li>REST APIs</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <section>
-        <div class="section-title">Selected Engineering Work</div>
-        <div class="projects-grid">
+        <h2>Selected Works</h2>
+        <div class="project-list">
 
             <div class="project-card featured">
-                <div class="card-header">
-                    <h3 class="project-title">
-                        Distributed Code Engine
-                        <span class="live-badge">FEATURED</span>
-                    </h3>
+                <div class="project-header">
+                    <h3 class="project-title">Distributed Code Engine</h3>
+                    <span class="badge">Featured</span>
                 </div>
-                <div class="project-desc">
-                    A high-performance remote code execution platform capable of compiling C++, Java, and Python in isolated environments.
-                    Engineered using <strong>Docker containers</strong> for security and <strong>ProcessBuilder</strong> for direct execution.
-                    Handles concurrent requests with sub-second latency.
+                <div class="tags">
+                    <span class="tag">Java Spring Boot</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">ProcessBuilder</span>
+                    <span class="tag">React</span>
                 </div>
-                <div class="tech-stack">Java • Spring Boot • Docker • React • AWS Logic</div>
-                <div class="card-links">
-                    <a href="https://distributed-code-execution-engine.vercel.app/" target="_blank">↗ Live Demo</a>
-                    <a href="https://github.com/anshullakra007/Distributed-Code-Execution-Engine" target="_blank">→ Source Code</a>
+                <p class="project-desc">
+                    A high-performance remote code execution platform similar to LeetCode. 
+                    It compiles and runs C++, Java, and Python code in isolated Docker containers. 
+                    Engineered to handle concurrent requests with sub-second latency and real-time output streaming.
+                </p>
+                <div class="links">
+                    <a href="https://distributed-code-execution-engine.vercel.app/" target="_blank">🚀 Launch Live Demo</a>
+                    <a href="https://github.com/anshullakra007/Distributed-Code-Execution-Engine" target="_blank">View Source</a>
                 </div>
             </div>
 
             <div class="project-card">
-                <div class="card-header">
+                <div class="project-header">
                     <h3 class="project-title">SyncDraw</h3>
+                    <span class="badge">Live</span>
                 </div>
-                <div class="project-desc">
-                    Real-time collaborative whiteboard with zero-latency synchronization. 
-                    Uses a <strong>Pub/Sub WebSocket architecture</strong> to broadcast drawing coordinates to multiple clients instantly.
+                <div class="tags">
+                    <span class="tag">React.js</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Socket.io</span>
                 </div>
-                <div class="tech-stack">React • Node.js • Socket.io</div>
-                <div class="card-links">
-                    <a href="https://sync-draw-eight.vercel.app/" target="_blank">↗ Live Demo</a>
-                    <a href="https://github.com/anshullakra007/syncdraw" target="_blank">→ Source Code</a>
+                <p class="project-desc">
+                    A collaborative whiteboard offering <strong>zero-latency synchronization</strong>. 
+                    Built with a Pub/Sub WebSocket architecture to broadcast drawing coordinates to multiple clients instantly.
+                    Supports multiple users in the same room.
+                </p>
+                <div class="links">
+                    <a href="https://sync-draw-eight.vercel.app/" target="_blank">🚀 Launch Live Demo</a>
+                    <a href="https://github.com/anshullakra007/syncdraw" target="_blank">View Source</a>
                 </div>
             </div>
 
             <div class="project-card">
-                <div class="card-header">
+                <div class="project-header">
                     <h3 class="project-title">MiniRedis</h3>
                 </div>
-                <div class="project-desc">
-                    A multi-threaded in-memory key-value store built from scratch. 
-                    Implements a custom <strong>TCP Serialization Protocol</strong> and uses fine-grained locking for thread safety.
+                <div class="tags">
+                    <span class="tag">Java Core</span>
+                    <span class="tag">Multi-threading</span>
+                    <span class="tag">TCP Sockets</span>
                 </div>
-                <div class="tech-stack">Java • Raw Sockets • Concurrency</div>
-                <div class="card-links">
-                    <a href="https://github.com/anshullakra007/MiniRedis" target="_blank">→ Source Code</a>
+                <p class="project-desc">
+                    A multi-threaded in-memory key-value store built from scratch without external libraries. 
+                    Implements a custom <strong>TCP Serialization Protocol</strong> and uses `ConcurrentHashMap` with fine-grained locking for thread safety.
+                </p>
+                <div class="links">
+                    <a href="https://github.com/anshullakra007/MiniRedis" target="_blank">View Source</a>
                 </div>
             </div>
 
             <div class="project-card">
-                <div class="card-header">
+                <div class="project-header">
                     <h3 class="project-title">L7 Load Balancer</h3>
                 </div>
-                <div class="project-desc">
-                    A custom Reverse Proxy that distributes traffic across backend servers.
-                    Implements <strong>Round Robin</strong> and <strong>Least Connections</strong> algorithms using atomic counters.
+                <div class="tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">HTTP Server</span>
+                    <span class="tag">Algorithms</span>
                 </div>
-                <div class="tech-stack">Java • HTTP Server • Networking</div>
-                <div class="card-links">
-                    <a href="https://github.com/anshullakra007/LoadBalancer" target="_blank">→ Source Code</a>
+                <p class="project-desc">
+                    A custom Reverse Proxy that distributes traffic across a cluster of backend servers.
+                    Implements <strong>Round Robin</strong> and <strong>Least Connections</strong> algorithms using `AtomicInteger` for lock-free concurrency.
+                </p>
+                <div class="links">
+                    <a href="https://github.com/anshullakra007/LoadBalancer" target="_blank">View Source</a>
                 </div>
             </div>
 
