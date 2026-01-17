@@ -10,7 +10,7 @@
             --bg: #000000;
             --surface: #111111;
             --text-main: #ffffff;
-            --text-secondary: #e5e5e5; /* Brightened for readability */
+            --text-secondary: #e5e5e5;
             --text-muted: #a3a3a3;
             --border: #333333;
             --accent: #ffffff;
@@ -21,7 +21,7 @@
         body {
             background-color: var(--bg);
             color: var(--text-main);
-            /* SYSTEM FONTS - OPTIMIZED FOR READABILITY */
+            /* THICKER SYSTEM FONTS */
             font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             margin: 0;
             line-height: 1.6;
@@ -36,10 +36,10 @@
             padding: 80px 24px;
         }
 
-        /* --- TYPOGRAPHY UTILS --- */
+        /* --- TYPOGRAPHY --- */
         h1, h2, h3 { color: var(--text-main); margin: 0; }
         
-        /* Forces thicker text globally */
+        /* Force thicker weights for readability */
         p, li, span, div { font-weight: 500; } 
         h1 { font-weight: 800; }
         h2 { font-weight: 700; }
@@ -62,7 +62,7 @@
             font-weight: 500;
         }
 
-        /* CONTACT LINKS ROW */
+        /* CONTACT LINKS */
         .social-row {
             display: flex;
             flex-wrap: wrap;
@@ -79,17 +79,6 @@
             transition: border-color 0.2s;
         }
         .social-link:hover { border-color: #fff; }
-
-        /* CODEFORCES LIVE STATS */
-        .cf-stats {
-            margin-top: 15px;
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            display: flex;
-            gap: 20px;
-            font-family: monospace; /* Monospace specifically for data */
-        }
-        .stat-value { color: var(--text-main); font-weight: 700; }
 
         /* --- SECTIONS --- */
         section { margin-bottom: 100px; }
@@ -129,7 +118,6 @@
         }
 
         .project-card {
-            /* Minimalist Card: No background, just clean layout */
             border-left: 2px solid #333;
             padding-left: 30px;
             transition: border-color 0.2s;
@@ -160,7 +148,7 @@
 
         .project-desc {
             font-size: 1.1rem;
-            color: var(--text-secondary); /* High contrast */
+            color: var(--text-secondary);
             margin-bottom: 20px;
             max-width: 650px;
             line-height: 1.7;
@@ -188,7 +176,6 @@
         }
         .link-btn:hover { border-bottom-color: #fff; }
         
-        /* Mobile adjustment */
         @media (max-width: 600px) {
             h1 { font-size: 2.5rem; }
             .project-card { padding-left: 20px; border-left-width: 2px; }
@@ -209,11 +196,6 @@
             <a href="https://www.linkedin.com/in/anshulkumar07/" class="social-link" target="_blank">LinkedIn</a>
             <a href="mailto:anshullakra8@gmail.com" class="social-link">Email</a>
             <a href="https://codeforces.com/profile/anshullakra8" class="social-link" target="_blank">Codeforces</a>
-        </div>
-
-        <div class="cf-stats">
-            <span>Rating: <span id="cf-rating" class="stat-value">Loading...</span></span>
-            <span>Max: <span id="cf-max" class="stat-value">-</span></span>
         </div>
     </header>
 
@@ -314,25 +296,6 @@
     </section>
 
 </div>
-
-<script>
-    async function fetchCFStats() {
-        try {
-            const res = await fetch('https://codeforces.com/api/user.info?handles=anshullakra8');
-            const data = await res.json();
-            if(data.status === "OK") {
-                const user = data.result[0];
-                document.getElementById('cf-rating').innerText = user.rating || "N/A";
-                document.getElementById('cf-max').innerText = user.maxRating || "N/A";
-            }
-        } catch(err) {
-            console.error("Failed to fetch CF stats");
-            document.getElementById('cf-rating').innerText = "1080"; // Fallback based on your screenshot
-            document.getElementById('cf-max').innerText = "1135";
-        }
-    }
-    fetchCFStats();
-</script>
 
 </body>
 </html>
