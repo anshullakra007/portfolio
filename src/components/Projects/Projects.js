@@ -43,6 +43,7 @@ function Projects() {
               title="Sentinel AI"
               description="An AI-powered autonomous SRE agent that ingests telemetry, performs semantic code retrieval via ChromaDB, and generates live diagnostic diffs."
               ghLink="https://github.com/anshullakra007/sentinel-ai"
+              demoLink="https://huggingface.co/spaces/anshullakra8/sentinel-ai"
             />
           </Col>
 
