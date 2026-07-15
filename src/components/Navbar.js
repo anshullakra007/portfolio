@@ -38,7 +38,6 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <span style={{ color: "#c770f0", fontWeight: "bold", fontSize: "1.6em" }}>AK.</span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

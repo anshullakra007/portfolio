@@ -181,17 +181,7 @@ function ResumeNew() {
             </div>
           </div>
 
-          {/* Bottom Download Button */}
-          <Row style={{ justifyContent: "center", paddingTop: "20px" }}>
-            <a
-              href="https://drive.google.com/file/d/1K3aQHBXub1pY9gxgln6xvyNBfvPcqrcr/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-              className="resume-btn"
-            >
-              <AiOutlineDownload /> &nbsp; Download CV
-            </a>
-          </Row>
+
         </Container>
       </Container>
     </div>
