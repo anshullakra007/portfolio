@@ -129,19 +129,13 @@ npm start
 ## 🏆 Competitive Programming
 
 - 🔴 **Codeforces** — **Pupil** rank, peak rating **1289** | [anshullakra8](https://codeforces.com/profile/anshullakra8)
-- 🟡 **LeetCode** — Contest rating **1456** | [anshullakra8](https://leetcode.com/anshullakra8)
+- 🟡 **LeetCode** — Contest rating **1,450** · **163 problems solved** | [anshullakra8](https://leetcode.com/u/anshullakra8/)
 - 🧠 Solved **360+ DSA problems** using C++ (STL), cleared **118 Medium & Hard** challenges
 - 🌍 Secured global rank **2185** in Educational CF Round 190
 
 ---
 
 <div align="center">
-
-### 🙏 Acknowledgements
-
-This portfolio design is adapted from [soumyajit4419/Portfolio](https://github.com/soumyajit4419/Portfolio).
-
----
 
 **⭐ Star this repo if you found it interesting!**
 

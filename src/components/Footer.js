@@ -5,7 +5,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiCodeforces } from "react-icons/si";
+import { SiCodeforces, SiLeetcode } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -59,6 +59,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <SiCodeforces />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://leetcode.com/u/anshullakra8/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiLeetcode />
               </a>
             </li>
           </ul>
