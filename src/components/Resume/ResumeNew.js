@@ -1,9 +1,9 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
 import { AiOutlineDownload, AiOutlineLink } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaEnvelope, FaPhone } from "react-icons/fa";
-import { SiLeetcode, SiCodeforces } from "react-icons/si";
+import { SiCodeforces } from "react-icons/si";
 import "./Resume.css";
 
 function ResumeNew() {
