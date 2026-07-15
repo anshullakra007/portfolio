@@ -160,6 +160,10 @@ function ResumeNew() {
                   <span className="resume-org">ReconAI (FinTech Dashboard) &nbsp;
                     <a href="https://github.com/anshullakra007/ReconAI" target="_blank" rel="noreferrer"><FaGithub /></a>
                   </span>
+                  <span className="resume-date">Aug 2025 – Sep 2025</span>
+                </div>
+                <div className="resume-item-sub">
+                  <span className="resume-role">React.js, Node.js, Gemini LLM</span>
                 </div>
                 <ul className="resume-bullets">
                   <li>An automated data reconciliation pipeline and React dashboard that detects transaction anomalies and utilizes Gemini LLM for root-cause analysis.</li>
@@ -171,6 +175,10 @@ function ResumeNew() {
                   <span className="resume-org">SyncDraw &nbsp;
                     <a href="https://github.com/anshullakra007/syncdraw" target="_blank" rel="noreferrer"><FaGithub /></a>
                   </span>
+                  <span className="resume-date">Jul 2025 – Aug 2025</span>
+                </div>
+                <div className="resume-item-sub">
+                  <span className="resume-role">React.js, WebSockets, Node.js</span>
                 </div>
                 <ul className="resume-bullets">
                   <li>Collaborative whiteboard with zero-latency synchronization.</li>
@@ -182,6 +190,10 @@ function ResumeNew() {
                   <span className="resume-org">L7 Load Balancer &nbsp;
                     <a href="https://github.com/anshullakra007/LoadBalancer" target="_blank" rel="noreferrer"><FaGithub /></a>
                   </span>
+                  <span className="resume-date">Jun 2025 – Jul 2025</span>
+                </div>
+                <div className="resume-item-sub">
+                  <span className="resume-role">C++, Multithreading, TCP/IP</span>
                 </div>
                 <ul className="resume-bullets">
                   <li>A custom Reverse Proxy distributing traffic using lock-free Atomic counters.</li>
@@ -193,6 +205,10 @@ function ResumeNew() {
                   <span className="resume-org">System Design Platform &nbsp;
                     <a href="https://github.com/anshullakra007/system-design-learning-platform" target="_blank" rel="noreferrer"><FaGithub /></a>
                   </span>
+                  <span className="resume-date">May 2025 – Jun 2025</span>
+                </div>
+                <div className="resume-item-sub">
+                  <span className="resume-role">React.js, Node.js, Express</span>
                 </div>
                 <ul className="resume-bullets">
                   <li>A comprehensive platform to master System Design, crafted to scale.</li>
@@ -204,6 +220,10 @@ function ResumeNew() {
                   <span className="resume-org">CodeLens AI &nbsp;
                     <a href="https://github.com/anshullakra007/codelens-ai" target="_blank" rel="noreferrer"><FaGithub /></a>
                   </span>
+                  <span className="resume-date">Mar 2025 – Apr 2025</span>
+                </div>
+                <div className="resume-item-sub">
+                  <span className="resume-role">Python, FastAPI, React.js</span>
                 </div>
                 <ul className="resume-bullets">
                   <li>AI-driven code analysis tool for detecting bad code smells and recommending refactors.</li>
@@ -215,6 +235,10 @@ function ResumeNew() {
                   <span className="resume-org">Mission Tracker &nbsp;
                     <a href="https://github.com/anshullakra007/mission-tracker" target="_blank" rel="noreferrer"><FaGithub /></a>
                   </span>
+                  <span className="resume-date">Jan 2025 – Feb 2025</span>
+                </div>
+                <div className="resume-item-sub">
+                  <span className="resume-role">React, Node.js, MongoDB</span>
                 </div>
                 <ul className="resume-bullets">
                   <li>A robust mission tracker built with a solid backend and responsive UI.</li>
@@ -226,6 +250,10 @@ function ResumeNew() {
                   <span className="resume-org">Campus Records Manager &nbsp;
                     <a href="https://github.com/anshullakra007/CampusCourseRecordManager" target="_blank" rel="noreferrer"><FaGithub /></a>
                   </span>
+                  <span className="resume-date">Nov 2024 – Dec 2024</span>
+                </div>
+                <div className="resume-item-sub">
+                  <span className="resume-role">Java, SQL, Spring Boot</span>
                 </div>
                 <ul className="resume-bullets">
                   <li>An administrative tool for managing courses and campus records effortlessly.</li>
