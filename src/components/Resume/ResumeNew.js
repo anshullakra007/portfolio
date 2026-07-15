@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
-import { AiOutlineDownload, AiOutlineLink } from "react-icons/ai";
+import { AiOutlineDownload } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaEnvelope, FaPhone } from "react-icons/fa";
 import { SiCodeforces } from "react-icons/si";
 import "./Resume.css";
@@ -15,12 +15,12 @@ function ResumeNew() {
           {/* Action Buttons */}
           <Row style={{ justifyContent: "center", paddingBottom: "20px" }}>
             <a
-              href="https://www.overleaf.com/project/6a3c97fd232a6084c5729ae7"
+              href="https://drive.google.com/file/d/1K3aQHBXub1pY9gxgln6xvyNBfvPcqrcr/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="resume-btn"
             >
-              <AiOutlineLink /> &nbsp; View on Overleaf
+              <AiOutlineDownload /> &nbsp; Download CV
             </a>
           </Row>
 
@@ -184,12 +184,12 @@ function ResumeNew() {
           {/* Bottom Download Button */}
           <Row style={{ justifyContent: "center", paddingTop: "20px" }}>
             <a
-              href="https://www.overleaf.com/project/6a3c97fd232a6084c5729ae7"
+              href="https://drive.google.com/file/d/1K3aQHBXub1pY9gxgln6xvyNBfvPcqrcr/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="resume-btn"
             >
-              <AiOutlineDownload /> &nbsp; Download from Overleaf
+              <AiOutlineDownload /> &nbsp; Download CV
             </a>
           </Row>
         </Container>

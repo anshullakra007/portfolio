@@ -12,6 +12,9 @@ import {
 import {
   SiSpringboot,
   SiPostgresql,
+  SiSocketdotio,
+  SiTailwindcss,
+  SiC,
 } from "react-icons/si";
 
 function Techstack() {
@@ -26,16 +29,28 @@ function Techstack() {
         <div className="tech-icons-text">C++</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiC />
+        <div className="tech-icons-text">C</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiPython />
         <div className="tech-icons-text">Python</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
-        <div className="tech-icons-text">Javascript</div>
+        <div className="tech-icons-text">JavaScript</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+        <div className="tech-icons-text">SQL</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSpringboot />
         <div className="tech-icons-text">Spring Boot</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+        <div className="tech-icons-text">Docker</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
@@ -46,12 +61,12 @@ function Techstack() {
         <div className="tech-icons-text">Node.js</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDocker />
-        <div className="tech-icons-text">Docker</div>
+        <SiSocketdotio />
+        <div className="tech-icons-text">Socket.io</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-        <div className="tech-icons-text">SQL</div>
+        <SiTailwindcss />
+        <div className="tech-icons-text">Tailwind CSS</div>
       </Col>
     </Row>
   );
