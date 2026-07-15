@@ -155,6 +155,82 @@ function ResumeNew() {
                   <li>Designed an asynchronous FastAPI telemetry pipeline with crash deduplication and vector search to reduce diagnosis latency for repeated incidents.</li>
                 </ul>
               </div>
+              <div className="resume-item">
+                <div className="resume-item-header">
+                  <span className="resume-org">ReconAI (FinTech Dashboard) &nbsp;
+                    <a href="https://github.com/anshullakra007/ReconAI" target="_blank" rel="noreferrer"><FaGithub /></a>
+                  </span>
+                </div>
+                <ul className="resume-bullets">
+                  <li>An automated data reconciliation pipeline and React dashboard that detects transaction anomalies and utilizes Gemini LLM for root-cause analysis.</li>
+                </ul>
+              </div>
+
+              <div className="resume-item">
+                <div className="resume-item-header">
+                  <span className="resume-org">SyncDraw &nbsp;
+                    <a href="https://github.com/anshullakra007/syncdraw" target="_blank" rel="noreferrer"><FaGithub /></a>
+                  </span>
+                </div>
+                <ul className="resume-bullets">
+                  <li>Collaborative whiteboard with zero-latency synchronization.</li>
+                </ul>
+              </div>
+
+              <div className="resume-item">
+                <div className="resume-item-header">
+                  <span className="resume-org">L7 Load Balancer &nbsp;
+                    <a href="https://github.com/anshullakra007/LoadBalancer" target="_blank" rel="noreferrer"><FaGithub /></a>
+                  </span>
+                </div>
+                <ul className="resume-bullets">
+                  <li>A custom Reverse Proxy distributing traffic using lock-free Atomic counters.</li>
+                </ul>
+              </div>
+
+              <div className="resume-item">
+                <div className="resume-item-header">
+                  <span className="resume-org">System Design Platform &nbsp;
+                    <a href="https://github.com/anshullakra007/system-design-learning-platform" target="_blank" rel="noreferrer"><FaGithub /></a>
+                  </span>
+                </div>
+                <ul className="resume-bullets">
+                  <li>A comprehensive platform to master System Design, crafted to scale.</li>
+                </ul>
+              </div>
+
+              <div className="resume-item">
+                <div className="resume-item-header">
+                  <span className="resume-org">CodeLens AI &nbsp;
+                    <a href="https://github.com/anshullakra007/codelens-ai" target="_blank" rel="noreferrer"><FaGithub /></a>
+                  </span>
+                </div>
+                <ul className="resume-bullets">
+                  <li>AI-driven code analysis tool for detecting bad code smells and recommending refactors.</li>
+                </ul>
+              </div>
+
+              <div className="resume-item">
+                <div className="resume-item-header">
+                  <span className="resume-org">Mission Tracker &nbsp;
+                    <a href="https://github.com/anshullakra007/mission-tracker" target="_blank" rel="noreferrer"><FaGithub /></a>
+                  </span>
+                </div>
+                <ul className="resume-bullets">
+                  <li>A robust mission tracker built with a solid backend and responsive UI.</li>
+                </ul>
+              </div>
+
+              <div className="resume-item">
+                <div className="resume-item-header">
+                  <span className="resume-org">Campus Records Manager &nbsp;
+                    <a href="https://github.com/anshullakra007/CampusCourseRecordManager" target="_blank" rel="noreferrer"><FaGithub /></a>
+                  </span>
+                </div>
+                <ul className="resume-bullets">
+                  <li>An administrative tool for managing courses and campus records effortlessly.</li>
+                </ul>
+              </div>
             </div>
 
             {/* Certifications */}
