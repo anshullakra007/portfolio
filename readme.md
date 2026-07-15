@@ -1,10 +1,23 @@
-<h2 align="center">
-  Anshul Kumar — Personal Portfolio<br/>
-  <a href="https://portfolio-dusky-seven-53.vercel.app/" target="_blank">🌐 Live Demo</a>
-</h2>
+<h1 align="center">Hi there! 👋 I'm Anshul Kumar</h1>
+
+<h3 align="center">Aspiring Software Development Engineer | Competitive Programmer | VIT Bhopal</h3>
+
+<br/>
 
 <div align="center">
-  <img alt="Anshul Kumar Portfolio" src="./Images/readme-img1.png" />
+  <img src="./Images/anshul.jpg" alt="Anshul Kumar" width="200" style="border-radius: 50%;" />
+</div>
+
+<br/>
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Live-brightgreen?style=for-the-badge)](https://portfolio-dusky-seven-53.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anshulkumar07/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/anshullakra007)
+[![Codeforces](https://img.shields.io/badge/Codeforces-Profile-red?style=for-the-badge&logo=codeforces)](https://codeforces.com/profile/anshullakra8)
+[![Gmail](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:anshullakra8@gmail.com)
+
 </div>
 
 <br/>
@@ -26,33 +39,50 @@
     <a href="https://github.com/anshullakra007/portfolio/issues">Request Feature</a>
 </h3>
 
-## 👋 About Me
+---
 
-Hi, I'm **Anshul Kumar** — an Aspiring Software Development Engineer from **VIT Bhopal**, passionate about Data Structures & Algorithms, Competitive Programming, and building high-performance distributed systems.
+## 👨‍💻 About Me
 
-This is my personal portfolio website featuring my projects, technical skills, and resume.
+I'm **Anshul Kumar**, a passionate developer from **Bahadurgarh, Haryana** currently pursuing B.Tech in Computer Science and Engineering at **VIT Bhopal**.
 
-- 📧 [anshullakra8@gmail.com](mailto:anshullakra8@gmail.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/anshulkumar07/)
-- 🐙 [GitHub](https://github.com/anshullakra007)
-- 🏆 [Codeforces](https://codeforces.com/profile/anshullakra8)
+I love building high-performance systems, exploring competitive programming, and developing intuitive web applications.
 
-## 🛠 Built With
+- 🎓 B.Tech CSE @ **VIT Bhopal**
+- 🏠 Based in **Bahadurgarh, Haryana, India**
+- 💡 Passionate about **DSA, Distributed Systems & Competitive Programming**
+- 📫 Reach me at **anshullakra8@gmail.com** | **+91 8307815380**
 
-This portfolio was built using the following technologies:
+---
 
-- **React.js** — Frontend framework
-- **Spring Boot** — Backend projects
-- **Docker** — Containerization for projects
-- **React-Bootstrap** — UI Components
-- **CSS3** — Custom styling
-- **Vercel** — Deployment & hosting
+## 🛠 Tech Stack
 
-## ✨ Features
+| Layer | Technologies |
+|-------|-------------|
+| **Languages** | Java (JDK 21), C++ (STL), JavaScript (ES6+), Python, SQL |
+| **Backend** | Spring Boot 3, Docker, Microservices, System Design |
+| **Frontend** | React.js, Socket.io, Tailwind CSS, REST APIs |
+| **Tools** | VS Code, IntelliJ IDEA, Git, Postman, Vercel |
+
+---
+
+## 🚀 Featured Projects
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| **ReconAI** | FinTech Operations Dashboard | Python, AI/ML, React |
+| **Sentinel AI** | AI-powered security system | Python, OpenCV |
+| **Distributed Code Engine** | Remote code execution in Docker | Java, Spring Boot, Docker |
+| **SyncDraw** | Collaborative whiteboard | React, Socket.io, WebSockets |
+| **MiniRedis** | In-memory key-value store | Java, TCP |
+| **L7 Load Balancer** | Application-layer load balancer | Java, Spring Boot |
+
+---
+
+## ✨ Portfolio Features
 
 **📖 Multi-Page Layout** — Home, About, Projects & Resume sections
 
-**🎨 Styled with React-Bootstrap and CSS** — Dark theme with purple accents
+**🎨 Dark Theme** — Styled with React-Bootstrap and custom CSS with purple accents
 
 **📱 Fully Responsive** — Works perfectly on desktop and mobile
 
@@ -60,30 +90,29 @@ This portfolio was built using the following technologies:
 
 **🚀 10 Featured Projects** — Including ReconAI, Distributed Code Engine, SyncDraw, MiniRedis and more
 
+---
+
 ## 🚀 Getting Started
 
 Clone this repository. You will need `node.js` and `git` installed globally on your machine.
 
-## 🛠 Installation and Setup Instructions
+### 🛠 Installation & Setup
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/anshullakra007/portfolio.git
-   ```
+```bash
+# Clone the repo
+git clone https://github.com/anshullakra007/portfolio.git
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+# Install dependencies
+cd portfolio
+npm install
 
-3. Start the development server:
-   ```bash
-   npm start
-   ```
+# Start development server
+npm start
+```
 
-   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## 📁 Project Structure
+### 📁 Project Structure
 
 ```
 src/
@@ -94,10 +123,16 @@ src/
 │   └── Resume/        # Resume viewer
 ```
 
+---
+
 ## 🙏 Acknowledgements
 
 This portfolio is built on top of the [soumyajit4419/Portfolio](https://github.com/soumyajit4419/Portfolio) template. Credit to the original author for the beautiful design foundation.
 
-### Show your support
+---
 
-Give a ⭐ if you like this website!
+<div align="center">
+  Give a ⭐ if you like this website!
+  <br/><br/>
+  <strong>Made with ❤️ by <a href="https://github.com/anshullakra007">Anshul Kumar</a></strong>
+</div>
