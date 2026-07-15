@@ -8,6 +8,7 @@
   max-width: 900px;
   backdrop-filter: blur(10px);
   color: #c3b1e1;
+  text-align: left;
 }
 
 .resume-header {
