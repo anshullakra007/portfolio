@@ -1,73 +1,76 @@
-# 👨‍💻 Anshul Kumar | Systems & Full Stack Engineer
+<h2 align="center">
+  Portfolio Website - v2.0<br/>
+  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="./Images/readme-img1.png" />
+</div>
 
-![Java](https://img.shields.io/badge/Java-21-orange)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.0-green)
-![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
-![Codeforces](https://img.shields.io/badge/Codeforces-Max_1135-blue)
-![Status](https://img.shields.io/badge/Status-Open_to_Work-success)
+<br/>
 
-I am a final-year Computer Science student (**VIT Bhopal, 2023 Batch**) and a passionate Backend & Distributed Systems Engineer. I specialize in building high-performance systems using **Java (Spring Boot)**, **low-level Networking**, and **Docker**, while maintaining a strong consistent record in **Competitive Programming**.
+<center>
 
-🚀 **View My Live Portfolio:** [https://github-theta-sepia.vercel.app/](https://github-theta-sepia.vercel.app/)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
+![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
 
----
+</center>
 
-## 🏆 Competitive Programming
-* **Codeforces:** [anshullakra8](https://codeforces.com/profile/anshullakra8) (Max Rating: 1135)
-* **Focus:** Data Structures, Algorithms, Dynamic Programming, and Graph Theory in C++.
-* **Activity:** Actively solving problems to reach 1400+ rating by mid-2026.
+<h3 align="center">
+    🔹
+    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
+</h3>
 
----
+## TL;DR
 
-## 🛠️ Technical Skills
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
 
-| Category | Technologies |
-|----------|-------------|
-| **Languages** | Java (JDK 21), C++ (STL), JavaScript (ES6+), SQL |
-| **Backend** | Spring Boot, Microservices, Raw Sockets, Multi-threading |
-| **System** | Docker, ProcessBuilder API, TCP/HTTP Protocols |
-| **Frontend** | React.js, Tailwind CSS, Socket.io |
-| **Tools** | Git/GitHub, Postman, Vercel, Render |
-| **CS Concepts** | Distributed Systems, OS Concurrency, DBMS, Networking |
+## Built With
 
----
+My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
-## 🌟 Featured Engineering Work
+This project was built using these technologies.
 
-### 1. ⚡ [Distributed Code Execution Engine](https://github.com/anshullakra007/Distributed-Code-Execution-Engine)
-A high-performance remote code execution platform (similar to LeetCode) that compiles and runs C++, Java, and Python code in secure, isolated containers.
-* **Tech Stack:** Java Spring Boot, Docker, ProcessBuilder, React.
-* **Key Feature:** Secure execution sandbox with real-time output streaming.
-* [**🚀 Live Demo**](https://distributed-code-execution-engine.vercel.app/)
+- React.js
+- Node.js
+- Express.js
+- CSS3
+- VsCode
+- Vercel
 
-### 2. 🎨 [SyncDraw - Real-time Collaboration](https://github.com/anshullakra007/syncdraw)
-A collaborative whiteboard that allows multiple users to draw and brainstorm together in real-time with zero latency.
-* **Tech Stack:** React.js, Node.js, Socket.io (WebSockets).
-* **Key Feature:** Pub/Sub architecture for sub-millisecond drawing synchronization.
-* [**🚀 Live Demo**](https://sync-draw-eight.vercel.app/)
+## Features
 
-### 3. 💾 [MiniRedis - In-Memory Key-Value Store](https://github.com/anshullakra007/MiniRedis)
-A multi-threaded database server built from scratch using raw Java sockets. It mimics Redis by handling concurrent TCP connections.
-* **Tech Stack:** Java Core, ServerSocket, ConcurrentHashMap, ThreadPools.
-* **Key Feature:** Custom TCP protocol implementation with HTTP health-check for cloud deployment.
-* [**🟢 Live Server Status**](https://miniredis.onrender.com)
+**📖 Multi-Page Layout**
 
-### 4. ⚖️ [L7 Load Balancer](https://github.com/anshullakra007/LoadBalancer)
-A custom Reverse Proxy that distributes traffic across a cluster of backend servers to ensure high availability.
-* **Tech Stack:** Java HTTP Server, Networking, Atomic Counters.
-* **Key Feature:** Implements Round Robin and Least Connections algorithms without external libraries.
-* [**🟢 Live Demo**](https://loadbalancer-sgfp.onrender.com)
+**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
 
----
+**📱 Fully Responsive**
 
-## 🚀 About This Repository
-This repository contains the source code for my personal portfolio website, designed with a **Monochromatic Minimalist Theme** to focus on code and architecture.
+## Getting Started
 
-* **Built With:** HTML5, CSS3, JavaScript (Vanilla).
-* **Deployed On:** Vercel.
+Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
 
-### Run Locally
-```bash
-git clone [https://github.com/anshullakra007/portfolio.git](https://github.com/anshullakra007/portfolio.git)
-cd portfolio
-# Open index.html in your browser
+## 🛠 Installation and Setup Instructions
+
+1. Installation: `npm install`
+
+2. In the project directory, you can run: `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
+
+## Usage Instructions
+
+Open the project folder and Navigate to `/src/components/`. <br/>
+You will find all the components used and you can edit your information accordingly.
+
+### Show your support
+
+Give a ⭐ if you like this website!
+
+<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
