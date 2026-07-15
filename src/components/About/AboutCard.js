@@ -9,14 +9,13 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi everyone! I’m <span className="purple">Anshul Kumar</span>{" "}
-            from <span className="purple">India</span>.
+            from <span className="purple">Bahadurgarh, Haryana, India</span>.
             <br />
-            I’m a{" "}
-            <span className="purple">Full Stack Engineer</span> and{" "}
-            <span className="purple">Distributed Systems Specialist</span>.
-            <br />I hold a B.Tech in{" "}
+            I’m an <span className="purple">Aspiring Software Development Engineer</span> passionate about Data Structures & Algorithms with a strong foundation in problem-solving.
+            <br />
+            Currently pursuing my B.Tech in{" "}
             <span className="purple">Computer Science and Engineering</span> from{" "}
-            <span className="purple">VIT Bhopal</span>.
+            <span className="purple">VIT Bhopal</span> with expertise in competitive programming.
             <br />
             <br />
             Outside of coding, I love engaging in activities that keep me
@@ -25,13 +24,13 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Competitive Programming 🏆
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Building Distributed Systems 💻
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Open Source Contributions 🌐
             </li>
           </ul>
 
