@@ -6,7 +6,6 @@ import {
   DiReact,
   DiNodejs,
   DiPython,
-  DiGit,
   DiJava,
   DiDocker,
 } from "react-icons/di";
