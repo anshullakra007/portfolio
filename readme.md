@@ -115,11 +115,23 @@ npm start
 
 ---
 
+## 🏅 Certifications
+
+| Certification | Issuer | Date |
+|--------------|--------|------|
+| **AWS Certified Solutions Architect – Associate** | Amazon Web Services | Jul 2026 (expires Jul 2029) |
+| **Networking Basics** | Cisco | Apr 2026 |
+| **Cyber Security Analyst (CCSA)** | IBM Career Education Program | Jun 2025 |
+| **Blockchain and its Applications** | NPTEL / IIT Madras | — |
+
+---
+
 ## 🏆 Competitive Programming
 
-- 🔴 **Codeforces** — Active participant, [anshullakra8](https://codeforces.com/profile/anshullakra8)
-- 🧠 Strong foundation in **Data Structures & Algorithms**
-- ⚡ Expertise in **C++ STL** for competitive problem solving
+- 🔴 **Codeforces** — **Pupil** rank, peak rating **1289** | [anshullakra8](https://codeforces.com/profile/anshullakra8)
+- 🟡 **LeetCode** — Contest rating **1456** | [anshullakra8](https://leetcode.com/anshullakra8)
+- 🧠 Solved **360+ DSA problems** using C++ (STL), cleared **118 Medium & Hard** challenges
+- 🌍 Secured global rank **2185** in Educational CF Round 190
 
 ---
 
