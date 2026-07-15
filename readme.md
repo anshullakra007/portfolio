@@ -1,9 +1,10 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  Anshul Kumar — Personal Portfolio<br/>
+  <a href="https://portfolio-dusky-seven-53.vercel.app/" target="_blank">🌐 Live Demo</a>
 </h2>
+
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Anshul Kumar Portfolio" src="./Images/readme-img1.png" />
 </div>
 
 <br/>
@@ -13,64 +14,90 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/anshullakra007/portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/anshullakra007/portfolio?color=red&logo=github&style=for-the-badge)
 
 </center>
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/anshullakra007/portfolio/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/anshullakra007/portfolio/issues">Request Feature</a>
 </h3>
 
-## TL;DR
+## 👋 About Me
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+Hi, I'm **Anshul Kumar** — an Aspiring Software Development Engineer from **VIT Bhopal**, passionate about Data Structures & Algorithms, Competitive Programming, and building high-performance distributed systems.
 
-## Built With
+This is my personal portfolio website featuring my projects, technical skills, and resume.
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+- 📧 [anshullakra8@gmail.com](mailto:anshullakra8@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/anshulkumar07/)
+- 🐙 [GitHub](https://github.com/anshullakra007)
+- 🏆 [Codeforces](https://codeforces.com/profile/anshullakra8)
 
-This project was built using these technologies.
+## 🛠 Built With
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+This portfolio was built using the following technologies:
 
-## Features
+- **React.js** — Frontend framework
+- **Spring Boot** — Backend projects
+- **Docker** — Containerization for projects
+- **React-Bootstrap** — UI Components
+- **CSS3** — Custom styling
+- **Vercel** — Deployment & hosting
 
-**📖 Multi-Page Layout**
+## ✨ Features
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+**📖 Multi-Page Layout** — Home, About, Projects & Resume sections
 
-**📱 Fully Responsive**
+**🎨 Styled with React-Bootstrap and CSS** — Dark theme with purple accents
 
-## Getting Started
+**📱 Fully Responsive** — Works perfectly on desktop and mobile
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+**⚡ Animated UI** — Particle background, typewriter effect, tilt cards
+
+**🚀 10 Featured Projects** — Including ReconAI, Distributed Code Engine, SyncDraw, MiniRedis and more
+
+## 🚀 Getting Started
+
+Clone this repository. You will need `node.js` and `git` installed globally on your machine.
 
 ## 🛠 Installation and Setup Instructions
 
-1. Installation: `npm install`
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/anshullakra007/portfolio.git
+   ```
 
-2. In the project directory, you can run: `npm start`
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-## Usage Instructions
+   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── Home/          # Hero section & intro
+│   ├── About/         # About, skills & GitHub stats
+│   ├── Projects/      # Project showcase cards
+│   └── Resume/        # Resume viewer
+```
+
+## 🙏 Acknowledgements
+
+This portfolio is built on top of the [soumyajit4419/Portfolio](https://github.com/soumyajit4419/Portfolio) template. Credit to the original author for the beautiful design foundation.
 
 ### Show your support
 
 Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
