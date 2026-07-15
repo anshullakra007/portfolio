@@ -53,6 +53,7 @@ function Projects() {
               title="Distributed Code Engine"
               description="A high-performance remote code execution platform running isolated Docker containers."
               ghLink="https://github.com/anshullakra007/Distributed-Code-Execution-Engine"
+              demoLink="https://distributed-code-execution-engine.vercel.app"
             />
           </Col>
 
@@ -63,6 +64,7 @@ function Projects() {
               title="SyncDraw"
               description="Collaborative whiteboard with zero-latency synchronization."
               ghLink="https://github.com/anshullakra007/syncdraw"
+              demoLink="https://sync-draw-eight.vercel.app"
             />
           </Col>
 
@@ -73,6 +75,7 @@ function Projects() {
               title="MiniRedis"
               description="A multi-threaded in-memory key-value store built from scratch with a custom TCP Protocol."
               ghLink="https://github.com/anshullakra007/MiniRedis"
+              demoLink="https://miniredis.onrender.com"
             />
           </Col>
 
@@ -83,6 +86,7 @@ function Projects() {
               title="L7 Load Balancer"
               description="A custom Reverse Proxy distributing traffic using lock-free Atomic counters."
               ghLink="https://github.com/anshullakra007/LoadBalancer"
+              demoLink="https://loadbalancer-sgfp.onrender.com"
             />
           </Col>
 
@@ -93,6 +97,7 @@ function Projects() {
               title="System Design Platform"
               description="A comprehensive platform to master System Design, crafted to scale."
               ghLink="https://github.com/anshullakra007/system-design-learning-platform"
+              demoLink="https://system-design-learning-platform.vercel.app"
             />
           </Col>
 
@@ -103,6 +108,7 @@ function Projects() {
               title="CodeLens AI"
               description="AI-driven code analysis tool for detecting bad code smells and recommending refactors."
               ghLink="https://github.com/anshullakra007/codelens-ai"
+              demoLink="https://codelens-ai-ixqc.onrender.com"
             />
           </Col>
 
@@ -113,6 +119,7 @@ function Projects() {
               title="Mission Tracker"
               description="A robust mission tracker built with a solid backend and responsive UI."
               ghLink="https://github.com/anshullakra007/mission-tracker"
+              demoLink="https://mission-tracker-ebon.vercel.app"
             />
           </Col>
 
