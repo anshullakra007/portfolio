@@ -10,8 +10,6 @@ import miniredis from "../../Assets/Projects/miniredis.png";
 import loadbalancer from "../../Assets/Projects/loadbalancer.png";
 import system_design from "../../Assets/Projects/system_design.png";
 import codelens from "../../Assets/Projects/codelens.png";
-import mission_tracker from "../../Assets/Projects/mission_tracker.png";
-import campus_records from "../../Assets/Projects/campus_records.png";
 import fintech_churn from "../../Assets/Projects/fintech_churn.png";
 
 function Projects() {
