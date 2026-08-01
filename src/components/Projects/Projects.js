@@ -12,6 +12,7 @@ import system_design from "../../Assets/Projects/system_design.png";
 import codelens from "../../Assets/Projects/codelens.png";
 import mission_tracker from "../../Assets/Projects/mission_tracker.png";
 import campus_records from "../../Assets/Projects/campus_records.png";
+import fintech_churn from "../../Assets/Projects/fintech_churn.png";
 
 function Projects() {
   return (
@@ -64,7 +65,7 @@ function Projects() {
               isBlog={false}
               title="SyncDraw"
               description="Collaborative whiteboard with zero-latency synchronization."
-              ghLink="https://github.com/anshullakra007/syncdraw"
+              ghLink="https://github.com/anshullakra007/SyncDraw"
               demoLink="https://sync-draw-eight.vercel.app"
             />
           </Col>
@@ -131,6 +132,17 @@ function Projects() {
               title="Campus Records Manager"
               description="An administrative tool for managing courses and campus records effortlessly."
               ghLink="https://github.com/anshullakra007/CampusCourseRecordManager"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fintech_churn}
+              isBlog={false}
+              title="FinTech Churn Analyzer"
+              description="AI-powered operational CRM and analytics dashboard quantifying revenue at risk from payment gateway failures and predicting churn via Random Forest."
+              ghLink="https://github.com/anshullakra007/fintech-churn-analyzer"
+              demoLink="https://fintech-churn-analyzer.onrender.com"
             />
           </Col>
 
