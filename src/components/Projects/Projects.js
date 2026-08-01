@@ -114,26 +114,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={mission_tracker}
-              isBlog={false}
-              title="Mission Tracker"
-              description="A robust mission tracker built with a solid backend and responsive UI."
-              ghLink="https://github.com/anshullakra007/mission-tracker"
-              demoLink="https://mission-tracker-ebon.vercel.app"
-            />
-          </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={campus_records}
-              isBlog={false}
-              title="Campus Records Manager"
-              description="An administrative tool for managing courses and campus records effortlessly."
-              ghLink="https://github.com/anshullakra007/CampusCourseRecordManager"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard

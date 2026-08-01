@@ -103,6 +103,44 @@ function ResumeNew() {
               </div>
             </div>
 
+            {/* Open Source Contributions */}
+            <div className="resume-section-block">
+              <h2 className="resume-section-title">Open Source Contributions</h2>
+
+              <div className="resume-item">
+                <div className="resume-item-header">
+                  <span className="resume-org">redis / jedis &nbsp;
+                    <a href="https://github.com/redis/jedis/pull/4645" target="_blank" rel="noreferrer"><FaGithub /></a>
+                  </span>
+                  <span className="resume-date">Open PR #4645</span>
+                </div>
+                <div className="resume-item-sub">
+                  <span className="resume-role">Official Java Client for Redis</span>
+                </div>
+                <ul className="resume-bullets">
+                  <li><strong>fix(cluster): prevent lock-inversion deadlock in MultiNodePipelineBase (#4557)</strong></li>
+                  <li>Investigated and resolved a critical multi-threading lock-inversion deadlock bug in Redis cluster pipeline execution (<code>MultiNodePipelineBase</code>).</li>
+                  <li>Improved thread-safe connection pool acquisition ordering under high-concurrency multi-node environments.</li>
+                </ul>
+              </div>
+
+              <div className="resume-item">
+                <div className="resume-item-header">
+                  <span className="resume-org">TheAlgorithms / Java &nbsp;
+                    <a href="https://github.com/TheAlgorithms/Java/pull/7544" target="_blank" rel="noreferrer"><FaGithub /></a>
+                  </span>
+                  <span className="resume-date">Open PR #7544</span>
+                </div>
+                <div className="resume-item-sub">
+                  <span className="resume-role">200k+ Star Open Source Algorithms Library</span>
+                </div>
+                <ul className="resume-bullets">
+                  <li><strong>Add Concurrent Merge Sort Implementation</strong></li>
+                  <li>Engineered a high-performance multi-threaded Concurrent Merge Sort algorithm using Java's <code>ForkJoinPool</code> and recursive task splitting to maximize CPU utilization on multi-core architectures.</li>
+                </ul>
+              </div>
+            </div>
+
             {/* Projects */}
             <div className="resume-section-block">
               <h2 className="resume-section-title">Technical Projects</h2>
@@ -172,6 +210,21 @@ function ResumeNew() {
 
               <div className="resume-item">
                 <div className="resume-item-header">
+                  <span className="resume-org">FinTech Churn &amp; Impact Analyzer &nbsp;
+                    <a href="https://github.com/anshullakra007/fintech-churn-analyzer" target="_blank" rel="noreferrer"><FaGithub /></a>
+                  </span>
+                  <span className="resume-date">Aug 2025 – Sep 2025</span>
+                </div>
+                <div className="resume-item-sub">
+                  <span className="resume-role">Python, Streamlit, Random Forest, Gemini API</span>
+                </div>
+                <ul className="resume-bullets">
+                  <li>An AI-powered operational CRM and analytics dashboard that quantifies revenue at risk from payment gateway failures and predicts user churn via Random Forest.</li>
+                </ul>
+              </div>
+
+              <div className="resume-item">
+                <div className="resume-item-header">
                   <span className="resume-org">SyncDraw &nbsp;
                     <a href="https://github.com/anshullakra007/syncdraw" target="_blank" rel="noreferrer"><FaGithub /></a>
                   </span>
@@ -227,36 +280,6 @@ function ResumeNew() {
                 </div>
                 <ul className="resume-bullets">
                   <li>AI-driven code analysis tool for detecting bad code smells and recommending refactors.</li>
-                </ul>
-              </div>
-
-              <div className="resume-item">
-                <div className="resume-item-header">
-                  <span className="resume-org">Mission Tracker &nbsp;
-                    <a href="https://github.com/anshullakra007/mission-tracker" target="_blank" rel="noreferrer"><FaGithub /></a>
-                  </span>
-                  <span className="resume-date">Jan 2025 – Feb 2025</span>
-                </div>
-                <div className="resume-item-sub">
-                  <span className="resume-role">React, Node.js, MongoDB</span>
-                </div>
-                <ul className="resume-bullets">
-                  <li>A robust mission tracker built with a solid backend and responsive UI.</li>
-                </ul>
-              </div>
-
-              <div className="resume-item">
-                <div className="resume-item-header">
-                  <span className="resume-org">Campus Records Manager &nbsp;
-                    <a href="https://github.com/anshullakra007/CampusCourseRecordManager" target="_blank" rel="noreferrer"><FaGithub /></a>
-                  </span>
-                  <span className="resume-date">Nov 2024 – Dec 2024</span>
-                </div>
-                <div className="resume-item-sub">
-                  <span className="resume-role">Java, SQL, Spring Boot</span>
-                </div>
-                <ul className="resume-bullets">
-                  <li>An administrative tool for managing courses and campus records effortlessly.</li>
                 </ul>
               </div>
             </div>
