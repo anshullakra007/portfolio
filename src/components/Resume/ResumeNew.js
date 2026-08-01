@@ -129,7 +129,7 @@ function ResumeNew() {
                   <span className="resume-org">TheAlgorithms / Java &nbsp;
                     <a href="https://github.com/TheAlgorithms/Java/pull/7544" target="_blank" rel="noreferrer"><FaGithub /></a>
                   </span>
-                  <span className="resume-date">Open PR #7544</span>
+                  <span className="resume-date">Merged PR #7544</span>
                 </div>
                 <div className="resume-item-sub">
                   <span className="resume-role">200k+ Star Open Source Algorithms Library</span>

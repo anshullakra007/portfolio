@@ -30,7 +30,7 @@
   - Improved thread-safe connection pool acquisition ordering under high-concurrency multi-node environments.
 
 ### **[TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)** *(200k+ Star Open Source Algorithms Library)*
-- **Pull Request:** [Add Concurrent Merge Sort Implementation](https://github.com/TheAlgorithms/Java/pull/7544) *(Open)*
+- **Pull Request:** [Add Concurrent Merge Sort Implementation](https://github.com/TheAlgorithms/Java/pull/7544) *(Merged)*
   - Engineered a high-performance multi-threaded Concurrent Merge Sort algorithm using Java's `ForkJoinPool` and recursive task splitting to maximize CPU utilization on multi-core architectures.
 
 ---
