@@ -8,7 +8,7 @@
 ## 🎓 Education
 
 ### **Vellore Institute of Technology (VIT)** — *Bhopal, India*
-- **B.Tech in Computer Science and Engineering** | **CGPA: 9.15/10.0** *(Sep 2023 – Jan 2027)*
+- **B.Tech in Computer Science and Engineering** | **CGPA: 9.11/10.0** *(Sep 2023 – Jan 2027)*
 - **Relevant Coursework:** Data Structures & Algorithms, Object-Oriented Programming, Operating Systems, Computer Networks, DBMS, Distributed Systems, System Design
 
 ---
