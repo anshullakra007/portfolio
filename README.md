@@ -1,12 +1,12 @@
-# portfolio
+# fl
 
 
 
 ---
 
-## Why I built this ?
+## Wy I bul ?
 
-**Situation:** A software engineer needs a high-performance, visually stunning personal website to showcase their projects, but generic templates lack a "wow" factor.
-**Task:** I set out to build a bespoke portfolio website utilizing modern web technologies, focusing on extreme performance (Lighthouse 100), accessibility, and dynamic animations.
-**Action:** I utilized Next.js/React and Tailwind CSS to build a fully responsive UI. I integrated Framer Motion for complex scroll-linked animations and utilized static site generation (SSG) to ensure the page loads instantly. I also optimized all graphical assets and implemented strict semantic HTML.
-**Result:** The portfolio serves as a premium digital resume. It showcases exceptional frontend polish, flawless performance, and an eye for modern UI/UX design paradigms.
+**Su:** A fw -f, vully u l wb w , bu l lk "ww" f.
+**Tk:** I u bul bk fl wb ulz wb l, fu f (Lu 100), bly, y .
+**A:** I ulz N./R Tlw CSS bul fully v UI. I F M f l ll-lk ulz (SSG) u l ly. I l z ll l l HTML.
+**Rul:** T fl v u l u. I w l f l, flwl f, y f UI/UX .
