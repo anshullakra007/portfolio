@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Anshul Kumar
+#  Hi, I'm Anshul Kumar
 
 ### Aspiring Software Development Engineer | Full Stack Developer | Competitive Programmer
 
@@ -18,18 +18,18 @@
 
 ---
 
-## 🧑‍💻 About Me
+## 🧑‍ About Me
 
-- 🎓 **B.Tech CSE** @ VIT Bhopal
-- 🏠 Based in **Bahadurgarh, Haryana, India**
-- 🔭 Currently working on **Distributed Systems & AI/ML Projects**
-- 💡 Passionate about **DSA, System Design & Competitive Programming**
-- 🏆 Active on **Codeforces** — [anshullakra8](https://codeforces.com/profile/anshullakra8)
-- 📫 Reach me at **anshullakra8@gmail.com**
+-  **B.Tech CSE** @ VIT Bhopal
+-  Based in **Bahadurgarh, Haryana, India**
+-  Currently working on **Distributed Systems & AI/ML Projects**
+-  Passionate about **DSA, System Design & Competitive Programming**
+-  Active on **Codeforces** — [anshullakra8](https://codeforces.com/profile/anshullakra8)
+-  Reach me at **anshullakra8@gmail.com**
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Languages**
 
@@ -60,7 +60,7 @@
 
 ---
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=anshullakra007&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
@@ -73,7 +73,7 @@
 
 ---
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 | # | Project | Description | Tech Stack | Links |
 |---|---------|-------------|-----------|-------|
@@ -86,19 +86,19 @@
 
 ---
 
-## 🌐 Portfolio Website
+##  Portfolio Website
 
 Hey there! This repository contains my personal portfolio website built with **React.js** and deployed on **Vercel**.
 
-### ✨ Features
-- 📖 Multi-page layout (Home, About, Projects, Resume)
-- 🌌 Particle.js animated background
-- ⌨️ Typewriter effect on the hero section
-- 🃏 3D tilt project cards
-- 📱 Fully responsive design
-- 🎨 Dark theme with purple gradient accents
+###  Features
+-  Multi-page layout (Home, About, Projects, Resume)
+-  Particle.js animated background
+- ⌨ Typewriter effect on the hero section
+-  3D tilt project cards
+-  Fully responsive design
+-  Dark theme with purple gradient accents
 
-### 🛠 Local Setup
+###  Local Setup
 
 ```bash
 # Clone the repository
@@ -115,7 +115,7 @@ npm start
 
 ---
 
-## 🏅 Certifications
+##  Certifications
 
 | Certification | Issuer | Date |
 |--------------|--------|------|
@@ -126,20 +126,20 @@ npm start
 
 ---
 
-## 🏆 Competitive Programming
+##  Competitive Programming
 
-- 🔴 **Codeforces** — **Pupil** rank, peak rating **1289** | [anshullakra8](https://codeforces.com/profile/anshullakra8)
+-  **Codeforces** — **Pupil** rank, peak rating **1289** | [anshullakra8](https://codeforces.com/profile/anshullakra8)
 - 🟡 **LeetCode** — Contest rating **1,450** · **163 problems solved** | [anshullakra8](https://leetcode.com/u/anshullakra8/)
 - 🧠 Solved **360+ DSA problems** using C++ (STL), cleared **118 Medium & Hard** challenges
-- 🌍 Secured global rank **2185** in Educational CF Round 190
+-  Secured global rank **2185** in Educational CF Round 190
 
 ---
 
 <div align="center">
 
-**⭐ Star this repo if you found it interesting!**
+** Star this repo if you found it interesting!**
 
-*Made with ❤️ by [Anshul Kumar](https://github.com/anshullakra007)*
+*Made with  by [Anshul Kumar](https://github.com/anshullakra007)*
 
 ![Profile Views](https://komarev.com/ghpvc/?username=anshullakra007&color=7C3AED&style=flat-square)
 
