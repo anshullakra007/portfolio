@@ -88,7 +88,7 @@
 
 ## 🌐 Portfolio Website
 
-This repository contains my personal portfolio website built with **React.js** and deployed on **Vercel**.
+Hey there! This repository contains my personal portfolio website built with **React.js** and deployed on **Vercel**.
 
 ### ✨ Features
 - 📖 Multi-page layout (Home, About, Projects, Resume)
